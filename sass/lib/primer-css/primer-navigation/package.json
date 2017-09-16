@@ -1,0 +1,142 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "primer-navigation@1.3.0",
+        "scope": null,
+        "escapedName": "primer-navigation",
+        "name": "primer-navigation",
+        "rawSpec": "1.3.0",
+        "spec": "1.3.0",
+        "type": "version"
+      },
+      "C:\\Users\\Arise\\go\\src\\cheat-tables\\node_modules\\primer-css"
+    ]
+  ],
+  "_from": "primer-navigation@1.3.0",
+  "_id": "primer-navigation@1.3.0",
+  "_inCache": true,
+  "_location": "/primer-navigation",
+  "_nodeVersion": "7.10.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/primer-navigation-1.3.0.tgz_1502924195740_0.8735478166490793"
+  },
+  "_npmUser": {
+    "name": "primer-css",
+    "email": "design-systems@github.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "primer-navigation@1.3.0",
+    "scope": null,
+    "escapedName": "primer-navigation",
+    "name": "primer-navigation",
+    "rawSpec": "1.3.0",
+    "spec": "1.3.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/primer-core",
+    "/primer-css"
+  ],
+  "_resolved": "https://registry.npmjs.org/primer-navigation/-/primer-navigation-1.3.0.tgz",
+  "_shasum": "4d61ac5ff0e5ebbe3984730febaf592e5e4aa54c",
+  "_shrinkwrap": null,
+  "_spec": "primer-navigation@1.3.0",
+  "_where": "C:\\Users\\Arise\\go\\src\\cheat-tables\\node_modules\\primer-css",
+  "author": {
+    "name": "GitHub, Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/primer/primer-css/issues"
+  },
+  "dependencies": {
+    "primer-support": "4.3.0"
+  },
+  "description": "Singular purpose and flexible navigation elements.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "4d61ac5ff0e5ebbe3984730febaf592e5e4aa54c",
+    "tarball": "https://registry.npmjs.org/primer-navigation/-/primer-navigation-1.3.0.tgz"
+  },
+  "files": [
+    "index.scss",
+    "lib",
+    "build"
+  ],
+  "homepage": "http://primercss.io/",
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "primercss",
+    "nav",
+    "navigation"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "maintainers": [
+    {
+      "name": "broccolini",
+      "email": "diana.mounter@gmail.com"
+    },
+    {
+      "name": "jonrohan",
+      "email": "yes@jonrohan.codes"
+    },
+    {
+      "name": "keithamus",
+      "email": "npm@keithcirkel.co.uk"
+    },
+    {
+      "name": "primer-css",
+      "email": "design-systems@github.com"
+    },
+    {
+      "name": "shawnbot",
+      "email": "shawnbot-npm@nym.hush.com"
+    },
+    {
+      "name": "muan",
+      "email": "me@muanchiou.com"
+    },
+    {
+      "name": "mdo",
+      "email": "markdotto@gmail.com"
+    },
+    {
+      "name": "josh",
+      "email": "josh@joshpeek.com"
+    },
+    {
+      "name": "mislav",
+      "email": "mislav.marohnic@gmail.com"
+    },
+    {
+      "name": "dgraham",
+      "email": "david.malcom.graham@gmail.com"
+    }
+  ],
+  "name": "primer-navigation",
+  "optionalDependencies": {},
+  "primer": {
+    "category": "core",
+    "module_type": "components"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primer/primer-css/tree/master/modules/primer-navigation"
+  },
+  "scripts": {
+    "build": "primer-module-build index.scss",
+    "lint": "stylelint **/*.scss -s scss",
+    "prepare": "npm run build",
+    "test": "npm-run-all -s build lint"
+  },
+  "style": "index.scss",
+  "version": "1.3.0"
+}

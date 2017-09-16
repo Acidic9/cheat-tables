@@ -1,0 +1,145 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "primer-page-headers@1.3.0",
+        "scope": null,
+        "escapedName": "primer-page-headers",
+        "name": "primer-page-headers",
+        "rawSpec": "1.3.0",
+        "spec": "1.3.0",
+        "type": "version"
+      },
+      "C:\\Users\\Arise\\go\\src\\cheat-tables\\node_modules\\primer-css"
+    ]
+  ],
+  "_from": "primer-page-headers@1.3.0",
+  "_id": "primer-page-headers@1.3.0",
+  "_inCache": true,
+  "_location": "/primer-page-headers",
+  "_nodeVersion": "7.10.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/primer-page-headers-1.3.0.tgz_1502924195699_0.7835754933767021"
+  },
+  "_npmUser": {
+    "name": "primer-css",
+    "email": "design-systems@github.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "primer-page-headers@1.3.0",
+    "scope": null,
+    "escapedName": "primer-page-headers",
+    "name": "primer-page-headers",
+    "rawSpec": "1.3.0",
+    "spec": "1.3.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/primer-css",
+    "/primer-marketing"
+  ],
+  "_resolved": "https://registry.npmjs.org/primer-page-headers/-/primer-page-headers-1.3.0.tgz",
+  "_shasum": "01bd262fc93035f808c8c1e63a7f3d5abaaf5ecf",
+  "_shrinkwrap": null,
+  "_spec": "primer-page-headers@1.3.0",
+  "_where": "C:\\Users\\Arise\\go\\src\\cheat-tables\\node_modules\\primer-css",
+  "author": {
+    "name": "GitHub, Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/primer/primer-css/issues"
+  },
+  "dependencies": {
+    "primer-marketing-support": "1.3.0",
+    "primer-support": "4.3.0"
+  },
+  "description": "Jumbotrons, heroes, and featured content sections for marketing websites at GitHub.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "01bd262fc93035f808c8c1e63a7f3d5abaaf5ecf",
+    "tarball": "https://registry.npmjs.org/primer-page-headers/-/primer-page-headers-1.3.0.tgz"
+  },
+  "files": [
+    "index.scss",
+    "lib",
+    "build"
+  ],
+  "homepage": "http://primercss.io/",
+  "keywords": [
+    "css",
+    "flash",
+    "github",
+    "hero",
+    "jumbotron",
+    "primer",
+    "primercss",
+    "style"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "maintainers": [
+    {
+      "name": "broccolini",
+      "email": "diana.mounter@gmail.com"
+    },
+    {
+      "name": "jonrohan",
+      "email": "yes@jonrohan.codes"
+    },
+    {
+      "name": "keithamus",
+      "email": "npm@keithcirkel.co.uk"
+    },
+    {
+      "name": "primer-css",
+      "email": "design-systems@github.com"
+    },
+    {
+      "name": "shawnbot",
+      "email": "shawnbot-npm@nym.hush.com"
+    },
+    {
+      "name": "muan",
+      "email": "me@muanchiou.com"
+    },
+    {
+      "name": "mdo",
+      "email": "markdotto@gmail.com"
+    },
+    {
+      "name": "josh",
+      "email": "josh@joshpeek.com"
+    },
+    {
+      "name": "mislav",
+      "email": "mislav.marohnic@gmail.com"
+    },
+    {
+      "name": "dgraham",
+      "email": "david.malcom.graham@gmail.com"
+    }
+  ],
+  "name": "primer-page-headers",
+  "optionalDependencies": {},
+  "primer": {
+    "category": "marketing",
+    "module_type": "components"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primer/primer-css/tree/master/modules/primer-page-headers"
+  },
+  "scripts": {
+    "build": "primer-module-build index.scss",
+    "lint": "stylelint **/*.scss -s scss",
+    "prepare": "npm run build",
+    "test": "npm-run-all -s build lint"
+  },
+  "style": "build/build.css",
+  "version": "1.3.0"
+}

@@ -1,0 +1,141 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "primer-tooltips@1.3.0",
+        "scope": null,
+        "escapedName": "primer-tooltips",
+        "name": "primer-tooltips",
+        "rawSpec": "1.3.0",
+        "spec": "1.3.0",
+        "type": "version"
+      },
+      "C:\\Users\\Arise\\go\\src\\cheat-tables\\node_modules\\primer-css"
+    ]
+  ],
+  "_from": "primer-tooltips@1.3.0",
+  "_id": "primer-tooltips@1.3.0",
+  "_inCache": true,
+  "_location": "/primer-tooltips",
+  "_nodeVersion": "7.10.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/primer-tooltips-1.3.0.tgz_1502924200213_0.08120175660587847"
+  },
+  "_npmUser": {
+    "name": "primer-css",
+    "email": "design-systems@github.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "primer-tooltips@1.3.0",
+    "scope": null,
+    "escapedName": "primer-tooltips",
+    "name": "primer-tooltips",
+    "rawSpec": "1.3.0",
+    "spec": "1.3.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/primer-core",
+    "/primer-css"
+  ],
+  "_resolved": "https://registry.npmjs.org/primer-tooltips/-/primer-tooltips-1.3.0.tgz",
+  "_shasum": "ea3b4955c6b3d6de5a26d30379e7a58b93331ea3",
+  "_shrinkwrap": null,
+  "_spec": "primer-tooltips@1.3.0",
+  "_where": "C:\\Users\\Arise\\go\\src\\cheat-tables\\node_modules\\primer-css",
+  "author": {
+    "name": "GitHub, Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/primer/primer-css/issues"
+  },
+  "dependencies": {
+    "primer-support": "4.3.0"
+  },
+  "description": "Add tooltips built entirely in CSS to nearly any element.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ea3b4955c6b3d6de5a26d30379e7a58b93331ea3",
+    "tarball": "https://registry.npmjs.org/primer-tooltips/-/primer-tooltips-1.3.0.tgz"
+  },
+  "files": [
+    "index.scss",
+    "lib",
+    "build"
+  ],
+  "homepage": "http://primercss.io/",
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "primercss"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "maintainers": [
+    {
+      "name": "broccolini",
+      "email": "diana.mounter@gmail.com"
+    },
+    {
+      "name": "jonrohan",
+      "email": "yes@jonrohan.codes"
+    },
+    {
+      "name": "keithamus",
+      "email": "npm@keithcirkel.co.uk"
+    },
+    {
+      "name": "primer-css",
+      "email": "design-systems@github.com"
+    },
+    {
+      "name": "shawnbot",
+      "email": "shawnbot-npm@nym.hush.com"
+    },
+    {
+      "name": "muan",
+      "email": "me@muanchiou.com"
+    },
+    {
+      "name": "mdo",
+      "email": "markdotto@gmail.com"
+    },
+    {
+      "name": "josh",
+      "email": "josh@joshpeek.com"
+    },
+    {
+      "name": "mislav",
+      "email": "mislav.marohnic@gmail.com"
+    },
+    {
+      "name": "dgraham",
+      "email": "david.malcom.graham@gmail.com"
+    }
+  ],
+  "name": "primer-tooltips",
+  "optionalDependencies": {},
+  "primer": {
+    "category": "core",
+    "module_type": "components"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primer/primer-css/tree/master/modules/primer-tooltips"
+  },
+  "scripts": {
+    "build": "primer-module-build index.scss",
+    "lint": "stylelint **/*.scss -s scss",
+    "prepare": "npm run build",
+    "test": "npm-run-all -s build lint test-docs",
+    "test-docs": "ava --verbose ../../tests/modules/test-*.js"
+  },
+  "style": "index.scss",
+  "version": "1.3.0"
+}
